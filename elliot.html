@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonas “Guac-maestro” Lind</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="elliot.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+
+    <script src="elliot.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Taco ´bout it</h1>
+        <div class="menu-wrapper">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menuicon">&#9776;</label>
+            <ul id="menu">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="booking.html">Boka bord</a></li>
+                <li><a href="contacts.html">Anställda</a></li>
+                <li><a href="menu.html">Meny</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="e-background-wrapper">
+        <img src="imagesElliot/gvagg.png" class="e-background-img" alt="">
+    </div>
+
+<div class="video-center">
+    <video
+        src="imagesElliot/jonasavocado.mp4" 
+        autoplay 
+        muted 
+        loop 
+        playsinline 
+        width="600">
+    </video>
+    <div class="video-namn">- Om mig -</div>
+</div>
+
+<div class="jonas-wrapper">
+    <div>
+        <h1 class="jonas-text-4">Jonas “Guac-maestro” Lind</h1>
+        <h3 class="jonas-text-3">Serveringsansvarig</h3>
+    <img src="imagesElliot/jonasProfil.png" alt="">
+    </div>
+    <div>
+        <h2 class="jonas-text-2">Vem jag är:</h2>
+        <p class="jonas-text">Jag heter Jonas, men många känner mig som “Guac-maestro”. I rollen som serveringsansvarig brinner jag för att skapa en välkomnande atmosfär där varje gäst känner sig sedd och uppskattad. Min resa började bakom bardisken, men idag är jag mer än bara någon som tar beställningar – jag är en del av upplevelsen.</p>
+        <h2 class="jonas-text-2">Vad jag gör:</h2>
+        <p class="jonas-text">Mitt fokus ligger på att bygga relationer. Jag älskar att förvandla nya gäster till stamkunder genom värme, humor och personlig service. Oavsett om det handlar om att guida genom menyn eller bara småprata vid bordet, vill jag att varje besök ska bli något att minnas.</p>
+        <h2 class="jonas-text-2">Min specialitet:</h2>
+        <p class="jonas-text">Det jag är mest känd för? Tabell-side guacamole. Jag kan fixa den på under 60 sekunder – med ögonkontakt, skämt och ett leende på köpet. För mig är det inte bara en rätt, utan ett sätt att skapa en liten show som lyfter hela måltiden.</p>
+    </div>
+</div>
+
+<div class="jonas-projekt">
+    <div>
+        <h1 class="jonas-projekt-text">Mina projekt:</h1>
+    </div>
+
+
+
+<div class="jonas-projekt-lista">
+            <label for="jonas-filter-input" id="jonas-filter">Filtrera projekt:</label>
+            <input type="text" id="jonas-filter-input" placeholder="Skriv för att filtrera (titel)">
+            
+            <label for="jonas-sort-select" id="jonas-sort">Sortera efter:</label>
+            
+            <select id="jonas-sort-select">
+                <option value="titel-asc">Titel A-Ö</option>
+                <option value="titel-desc">Titel Ö-A</option>
+            </select>
+            
+            <div id="jonas-projekt-lista"></div>
+        </div>
+
+</div>
+
+
+
+    <div class="jonas-skills">
+        <div class="skills-sektionen">
+            <h3 id="jonas-skills-rubrik">Jonas skills</h3>
+
+            <div class="skill-baren">
+                <div class="skill-namn">Göra guaqamole</div>
+                <div class="skillbar-baren">
+                    <div class="skillbar-fyll" data-fill="90%"></div>
+                </div>
+            </div>
+
+            <div class="skill-baren">
+                <div class="skill-namn">Kundbemötande</div>
+                <div class="skillbar-baren">
+                    <div class="skillbar-fyll" data-fill="75%"></div>
+                </div>
+            </div>
+
+            <div class="skill-baren">
+                <div class="skill-namn">Humor</div>
+                <div class="skillbar-baren">
+                    <div class="skillbar-fyll" data-fill="85%"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+        <div class="jonas-slideshow">
+            <div id="jonas-slideshow-bilder">
+                <img class="jonas-bildspel" src="imagesElliot/jonasMote.png" alt="Jonas på möte">
+                <img class="jonas-bildspel" src="imagesElliot/avocadoMarknad.png" alt="Avocado marknad">
+                <img class="jonas-bildspel" src="imagesElliot/himelskGuaq.png" alt="Jonas himmelska guacamole">
+                <img class="jonas-bildspel" src="imagesElliot/avocadoLand.png" alt="Jonas på besök i avocadoland">
+                <img class="jonas-bildspel" src="imagesElliot/cuttingAvocado.png" alt="Jonas skär avokado">
+            </div>
+        </div>
+
+<div class="slideshow-buttons">
+    <button id="forra">Föregående</button>
+    <button id="nasta">Nästa</button>
+</div>
+
+</body>
+
+</html>
+
+

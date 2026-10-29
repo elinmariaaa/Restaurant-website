@@ -1,0 +1,85 @@
+{
+  "name": "Erik Tortilla Master",
+  "title": "Senior Tortilla Ingenjör",
+  "email": "erik.tortilla@example.com",
+  "phone": "+1-555-TORTILLA",
+  "summary": "Passionerad tortilla-hantverkare och senior ingenjör med över 8 års erfarenhet inom tortilla-tillverkning. Specialiserad inom masa-förberedelse, avancerade pressningstekniker och innovativa smakkombinationer. Har framgångsrikt lett utvecklingen av traditionella majstortillor, automatiserade produktionssystem och glutenfria alternativ. Erfarenhet från småskalig hantverksproduktion till storskalig industriell tillverkning, med fokus på att bevara autentiska smaker samtidigt som man införlivar moderna tekniker för förbättrad effektivitet och hållbarhet. Certifierad tortilla-mästare med djup förståelse för mexikanska kulinariska traditioner.",
+  "projects": [
+    {
+      "id": 1,
+      "title": "Artisan Majstortilla Revolution",
+      "company": "Casa de Masa",
+      "duration": "2022 - Nuvarande",
+      "description": "Ledde utvecklingen av arvsmajs-tortillalinje med traditionell nixtamaliseringsprocess",
+      "achievements": [
+        "Ökade kundnöjdheten med 45%",
+        "Minskade produktionstiden med 20% samtidigt som kvaliteten bibehölls",
+        "Introducerade 3 nya majsvarieteter till produktlinjen"
+      ],
+      "technologies": ["Traditionell Stenkrossning", "Vedeldad Comal", "Arvsmajsvarieteter"]
+    },
+    {
+      "id": 2,
+      "title": "Mjöl Tortilla Automatiseringssystem",
+      "company": "TortillaTech Solutions",
+      "duration": "2020 - 2022",
+      "description": "Designade och implementerade automatiserad mjöl-tortilla produktionslinje med kvalitetskontrollsystem",
+      "achievements": [
+        "Skalade upp produktion från 500 till 5000 tortillas per timme",
+        "Uppnådde 99,2% konsistens i tjockleksmätningar",
+        "Minskade ingredienssvinnet med 15%"
+      ],
+      "technologies": ["Industriella Mixers", "Pneumatiska Pressar", "Temperaturövervakning"]
+    },
+    {
+      "id": 3,
+      "title": "Glutenfri Tortilla Innovation",
+      "company": "Healthy Wraps Inc",
+      "duration": "2019 - 2020",
+      "description": "Utveckade prisbelönt glutenfritt tortillarecept med alternativa mjöl och bindemedel",
+      "achievements": [
+        "Vann 'Bästa Alternativa Tortilla' på National Food Expo",
+        "Uppnådde textur och flexibilitet som matchar traditionella vete-tortillas",
+        "Lanserades framgångsrik produktlinje som genererade 2 miljoner dollar i intäkter"
+      ],
+      "technologies": ["MandelMjöl", "KassavaStärkelse", "XantanGummi", "F&U Testning"]
+    },
+    {
+      "id": 4,
+      "title": "Mobil Tortilla Food Truck",
+      "company": "Eriks Rullande Tortillas",
+      "duration": "2017 - 2019",
+      "description": "Grundade och drev mobil tortilla-foodtruck som serverade färska, beställnings-tillverkade tortillas på evenemang",
+      "achievements": [
+        "Serverade över 50 000 kunder på 200+ evenemang",
+        "Bibehöll 4,8/5 stjärnor betyg på matleveransplattformar",
+        "Presenterades i lokal matmagasin som 'Bästa Gatmat'"
+      ],
+      "technologies": ["Portabel Comal", "Mobilt POS System", "Lagerhantering"]
+    },
+    {
+      "id": 5,
+      "title": "Traditionell Mexikansk Tortilleria Lärlingsutbildning",
+      "company": "Tortilleria La Abuela",
+      "duration": "2016 - 2017",
+      "description": "Intensiv träningsprogram för att lära autentiska mexikanska tortilla-tillverkningstekniker från mästare tortilleros",
+      "achievements": [
+        "Behärskade handpressningstekniker som uppnådde 95% uniformitet",
+        "Lärde 12 regionala tortilla-variationer",
+        "Certifierad i traditionell nixtamaliseringsprocess"
+      ],
+      "technologies": ["Handpressning", "Lerkomål", "Cal (Kalk) Bearbetning", "Traditionella Recept"]
+    }
+  ],
+  "skills": [
+    { "name": "Masa Förberedelse", "level": 5 },
+    { "name": "Tortilla Pressning", "level": 4 },
+    { "name": "Receptutveckling", "level": 4 },
+    { "name": "Kvalitetskontroll", "level": 3 }
+  ],
+  "certifications": [
+    "Certifierad Tortilla Mästare (CTM)",
+    "Matsäkerhets certifiering",
+    "Traditionell Mexikansk Matlagning Certifikat"
+  ]
+}

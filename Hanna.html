@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amira DJ-Salsa | Taco ’bout it</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Hanna/Hanna.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <script src="Hanna.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="background-wrapper">
+        <img src="ImagesContacts/dj.png" class="background-img" alt="">
+    </div>
+
+    <header>
+        <h1>Taco ´bout it</h1>
+        <div class="menu-wrapper">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menuicon">&#9776;</label>
+            <ul id="menu">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="booking.html">Boka bord</a></li>
+                <li><a href="contacts.html">Anställda</a></li>
+                <li><a href="menu.html">Meny</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <h2 id="amira-rubrik">Amira “DJ-Salsa” Rahman</h2>
+
+    <div class="grid-container">
+
+        <!-----------------Presentation--------------------->
+        <div class="item1-amira-presentation">
+
+            <div class="amira-wrapper">
+                <div>
+                    <p class="amira-text">På dagtid ansvarar Amira för att hålla köket skinande rent. På kvällarna
+                        förvandlas hon till “DJ-Salsa” och styr spellistorna som ger restaurangen dess energi. Hon är
+                        känd för sin perfekta tajming: tallrikar ut, beats in. Hon studerar ljudproduktion på sidan om
+                        och ser restaurangen som sin scen.</p>
+                    <p class="amira-text">Med sin passion för både matlagning och musik skapar Amira en unik atmosfär
+                        där varje gäst känner sig välkommen och inspirerad. Hennes smittsamma glädje och positiva energi
+                        smittar av sig på både kollegor och besökare. När hon inte mixar beats eller diskar tallrikar,
+                        spenderar hon gärna tid med att utforska nya musikgenrer och experimentera med ljudteknik.</p>
+                    <p class="amira-text">Amira tror starkt på att rätt musik kan lyfta en hel upplevelse, och hennes
+                        noggranna val av låtar speglar alltid kvällens vibe på restaurangen. Hon är också en teamspelare
+                        som gärna hjälper till där det behövs, och hennes mångsidighet gör henne ovärderlig för hela
+                        verksamheten.</p>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------Bild----------------------->
+
+        <div class="item2-amira-bild">
+            <img src="ImagesContacts/AmiraR.png" alt="Amira" class="amira-img">
+        </div>
+
+        <!-------------------Bildspel--------------------->
+        <div class="item3-amira-slideshow">
+            <div id="amira-slideshow">
+                <button id="prev">Föregående &#8592;</button>
+                <img class="amira-slides" src="Hanna/amira-dj.png" alt="Amira som DJ">
+                <img class="amira-slides" src="Hanna/amira-festival.png" alt="Amira på festival">
+                <img class="amira-slides" src="Hanna/amira-kök.png" alt="Amira i köket">
+                <img class="amira-slides" src="Hanna/amira-matsal.png" alt="Amira i matsal">
+                <img class="amira-slides" src="Hanna/amira-dj-igen.png" alt="Amira som DJ">
+                <img class="amira-slides" src="Hanna/amira-festival-igen.png" alt="Amira på festival">
+                <img class="amira-slides" src="Hanna/amira-foodcourt.png" alt="Amira i foodcourt">
+                <button id="next">Nästa &#8594;</button>
+            </div>
+        </div>
+        <!------------------Projekten--------------------->
+        <div class="item4-amira-projekt">
+            <label for="filter-input" id="filter">Filtrera projekt:</label>
+            <input type="text" id="filter-input" placeholder="Skriv för att filtrera (titel)">
+            <label for="sort-select" id="sort">Sortera efter:</label>
+            <select id="sort-select">
+                <option value="title-asc">Titel A-Ö</option>
+                <option value="title-desc">Titel Ö-A</option>
+            </select>
+            <div id="project-list"></div>
+        </div>
+
+    </div>
+
+    <!--------------------Skills---------------------->
+
+    <div class="item5-amira-skills">
+        <div class="skills-section">
+            <h3 id="skills-rubrik">Amiras kompetenser</h3>
+
+            <div class="skill-bar">
+                <div class="skill-name">Skapa musik</div>
+                <div class="skillbar-bar">
+                    <div class="skillbar-fill" data-fill="90%"></div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-name">Ljudproduktion</div>
+                <div class="skillbar-bar">
+                    <div class="skillbar-fill" data-fill="75%"></div>
+                </div>
+            </div>
+
+            <div class="skill-bar">
+                <div class="skill-name">Koordination</div>
+                <div class="skillbar-bar">
+                    <div class="skillbar-fill" data-fill="85%"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

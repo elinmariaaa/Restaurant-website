@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="elin.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Taco ´bout it</h1>
+        <div class="menu-wrapper">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menuicon">&#9776;</label>
+            <ul id="menu">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="booking.html">Boka bord</a></li>
+                <li><a href="contacts.html">Anställda</a></li>
+                <li><a href="menu.html">Meny</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero content-box">
+        <img src="Elin/profilePic.png" alt=" Sofia Karlsson" class="hero-img">
+        <h2>Sofia "Salsadrottningen" Karlsson</h2>
+        <h3>Kökschef</h3>
+        <p>Jag började min karriär som kock på ett kryssningsfartyg i Karibien, där jag för första gången fick uppleva
+            street food-kulturen på nära håll. Smakerna, dofterna och mötet mellan människor över enkel men välgjord mat
+            fångade mig direkt. Sedan dess har jag arbetat på flera restauranger både i Sverige och utomlands, och
+            alltid haft
+            en särskild passion för kombinationen av traditionella recept och kreativa smaksättningar. </p>
+
+        <p> På Taco ’bout it ansvarar jag för menyn och för att leda vårt köksteam. Jag brinner för att utveckla nya
+            rätter
+            där färska råvaror och starka, balanserade smaker står i centrum. Mina favoritingredienser är självklart
+            tomater,
+            chili och koriander – de tre hörnstenarna i en riktigt bra salsa. </p>
+
+        <p>
+            När jag inte står i köket gillar jag att resa för att upptäcka nya matkulturer, hämta inspiration från
+            lokala
+            marknader och ta med mig idéer hem till vårt kök. Målet är alltid detsamma: att varje gäst ska känna sig
+            överraskad
+            och nöjd när de lämnar restaurangen.
+        </p>
+    </section>
+
+
+
+
+    <section class="skills content-box">
+        <h2>Färdigheter</h2>
+        <div class="skillbars">
+
+            <div class="skill">
+                <p>Salsakunskap</p>
+                <div class="bar">
+                    <div class="progress salsakunskap" data-width="95%">95%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>Köksledning</p>
+                <div class="bar">
+                    <div class="progress koksledning" data-width="85%">85%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>Kreativitet</p>
+                <div class="bar">
+                    <div class="progress kreativitet" data-width="90%">90%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="slideshow content-box">
+        <h3>Mat jag älskar att laga</h3>
+        <div class="slideshow-wrapper">
+            <button class="prev"> Prev &#10094;</button>
+
+            <div class="slideshow"> 
+                <div class="slides"> 
+                    <img src="ImagesMenu/salsa.jpg" class="active" alt="Salsa">
+                    <img src="ImagesMenu/salsa2.jpg" alt="Salsa2">
+                    <img src="ImagesMenu/nachos.webp" alt="Loaded Nachos">
+                    <img src="ImagesMenu/fishtaco.jpg" alt="Fish Taco">
+                    <img src="ImagesMenu/classicTaco.jpg" alt="Classic Taco">
+                </div>
+            </div>
+            <button class="next"> Nästa &#10095;</button>
+        </div>
+    </section>
+
+
+
+
+    <section class="projektSalsa content-box">
+        <h3>Mina Projekt</h3>
+        <div class="projekt-controls">
+        
+            <input type="text" id="projekt-sok" placeholder="Sök Projekt...">
+            <select id="sortera-projekt">
+                <option value="az">A-Ö</option>
+                <option value="za">Ö-A</option>
+            </select>
+        </div>
+
+    
+        <div id="projekt-lista"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Taco 'bout it. Nova huset 12 ehjhej</p>
+    </footer>
+
+    <script src="Elin/elin.js" defer></script>
+
+</body>
+
+</html>

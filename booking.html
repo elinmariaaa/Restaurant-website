@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Taco ´bout it</h1>
+        <div class="menu-wrapper">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" id="menuicon">&#9776;</label>
+            <ul id="menu">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="booking.html">Boka bord</a></li>
+                <li><a href="contacts.html">Anställda</a></li>
+                <li><a href="menu.html">Meny</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="background-wrapper">
+        <img src="ImagesBooking/BookingBackground.png" class="background-img" alt="">
+    </div>
+
+    <h2 class="booking-title">Boka bord</h2>
+
+    <form id="booking-form" autocomplete="off" novalidate>
+
+        <fieldset class="guests-fieldset">
+            <legend>Antal gäster</legend>
+            <div class="guest-options-wrapper">
+                <label class="guest-option">
+                    <input type="radio" name="guests" value="2"> 2</label>
+
+                <label class="guest-option">
+                    <input type="radio" name="guests" value="4"> 4</label>
+                <label class="guest-option">
+                    <input type="radio" name="guests" value="6"> 6</label>
+                <label class="guest-option">
+                    <input type="radio" name="guests" value="8"> 8</label>
+            </div>
+            <span class="error" id="guests-error"></span>
+        </fieldset>
+
+        <label>
+            Datum:
+            <input type="date" id="booking-date" name="date">
+            <span class="error" id="date-error"></span>
+        </label>
+
+        <label>
+            Tid:
+            <input type="time" id="booking-time" name="time" step="900">
+            <span class="error" id="time-error"></span>
+        </label>
+
+        <label>
+            Namn:
+            <input type="text" id="name" name="name">
+            <span class="error" id="name-error"></span>
+        </label>
+        <label>
+            Telefonnummer:
+            <input type="tel" id="phone" name="phone" pattern="^[0-9+\-\s]{7,}$">
+            <span class="error" id="phone-error"></span>
+        </label>
+        <label>
+            E-post:
+            <input type="email" id="email" name="email">
+            <span class="error" id="email-error"></span>
+        </label>
+        <label>
+            Meddelande:
+            <textarea id="message" name="message"></textarea>
+            <span class="error" id="message-error"></span>
+        </label>
+        <button type="submit">Skicka</button>
+    </form>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
